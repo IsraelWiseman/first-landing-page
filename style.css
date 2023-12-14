@@ -127,7 +127,35 @@ a {
 
   .second-section {
     background-color:#f9faf8;
+   
+  }
+
+  
+  .third-section {
+    
+    background-color: #e5e7eb;
+    text-align: start;
+  }
+
+  .second-section, .third-section {
     margin-left: 150px;
     margin-right: 150px;
     padding:15px 50px 30px 50px
+
+  }
+
+  .third-section-content {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-style: light italic;
+    color: #1f2937;
+    flex-shrink: 1;
+  }
+
+  .thor {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+    
   }
