@@ -175,23 +175,52 @@ h3 {
   border-style: solid;
   border-color: #ced1d8;
   margin-left: 40px;
-  display: flex;
   border-radius: 10px;
   margin-top: 30px;
   width: 600px;
   margin-right: 100px;
+
 }
 
 .small {
   font-size: 12px;
+  margin-left: 50px;
+
 }
 
 footer .first-section {
   background-color: #36383a;
   justify-content: center;
-  padding:20px;
-  color:#c7c9ce
+  padding: 20px;
+  color: #c7c9ce;
+}
+
+
+.call {
+  display: flex;
+  margin-top: 0px;
+  justify-content: space-between;
+}
+
+button,
+.call {
+  margin-left: 150px;
+  flex-shrink: 0;
+
 
 }
-  
 
+.sign-up button {
+  border-style: solid;
+  border-color: #c7c9ce;
+  margin-right: 50px;
+}
+
+.sign-up .call {
+  margin-left: 50px;
+}
+
+footer {
+  font-size: 14px;
+  margin-left: 100px;
+}
